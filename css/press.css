@@ -84,7 +84,6 @@ main a:hover {
   flex: 1; /*grow*/
 }
 
-
 .contact, footer {
   background-color: white;
   color: #4f0390;
@@ -99,24 +98,24 @@ p {
   padding-bottom: 0;
 }
 
-.contact a {
+footer a {
   color: #4f0390;
 }
 
-.contact a:hover {
+footer a:hover {
   color: #feba01;
 }
 
-footer {
+.contact {
   background-color: #4f0390;
   color: #feba01;
 }
 
-footer a {
+.contact a {
   text-decoration: none;
   color: #feba01;
 }
 
-footer a:hover {
+.contact a:hover {
   color: white;
 }
