@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  color: #4f0390;
+  font-family: Verdana, Geneva, sans-serif;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  font-family: 'Caveat', cursive;
+}
+
+header img {
+ margin: 20px 0 20px 50px;
+ width: 10%;
+ height: 10%;
+}
+
+.list {
+  float: right;
+  font-size: 17px;
+  padding: 60px 50px 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #4f0390;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+header a:hover {
+  color: #feba01;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  flex: 1; /*grow*/
+}
+
+.container img {
+  width: 33.3%;
+  height: 650px;
+}
+
+main {
+  background-color: #4f0390;
+  color: white;
+  padding: 50px 0 50px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+article {
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-bottom: 15px;
+}
+
+p {
+  padding-top: 20px;
+}
+
+main p {
+  color: #feba01;
+  padding-bottom: 30px;
+}
+
+.contact, footer {
+  background-color: white;
+  color: #4f0390;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.contact a {
+  color: #4f0390;
+}
+
+.contact a:hover {
+  color: #feba01;
+}
+
+footer {
+  background-color: #4f0390;
+  color: #feba01;
+}
+
+footer a {
+  text-decoration: none;
+  color: #feba01;
+}
+
+footer a:hover {
+  color: white;
+}
