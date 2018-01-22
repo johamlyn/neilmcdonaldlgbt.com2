@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after{
+  clear: both;
+}
+
+body {
+  color: #4f0390;
+  font-family: Verdana, Geneva, sans-serif;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+  font-family: 'Caveat', cursive;
+}
+
+header img {
+ margin: 20px 0 20px 50px;
+ width: 10%;
+ height: 10%;
+}
+
+.list {
+  float: right;
+  font-size: 17px;
+  padding: 60px 50px 0 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header a {
+  color: #4f0390;
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+header a:hover {
+  color: #feba01;
+}
+
+main {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+p {
+  padding-top: 20px;
+}
+
+main img {
+  height: 20%;
+  width: 20%;
+  padding-top: 40px;
+}
+
+main a {
+  color: #4f0390;
+}
+
+main a:hover {
+  color: #feba01;
+}
+
+
+.consultancy {
+  background-color: #feba01;
+  color: #4f0390;
+  font-size: 75px;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 700px;
+  width: 100%;
+}
+
+.consultancy:hover {
+  color: #feba01;
+  background-image: url("../images/neil-21.jpg");
+  background-size: 100%;
+}
+
+.speaking {
+  background-color: #4f0390;
+  color: #feba01;
+}
+
+.speaking:hover {
+  color: #4f0390;
+  background-image: url("../images/neil-26.jpg");
+  background-size: 100%;
+}
+
+.contact, footer {
+  background-color: white;
+  color: #4f0390;
+  font-family: 'Caveat', cursive;
+  font-size: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #4f0390;
+}
+
+footer a:hover {
+  color: #feba01;
+}
+
+.contact {
+  background-color: #4f0390;
+  color: #feba01;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #feba01;
+}
+
+.contact a:hover {
+  color: white;
+}
