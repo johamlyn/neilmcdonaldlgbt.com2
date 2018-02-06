@@ -14,14 +14,13 @@
 
 body {
   color: #4f0390;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 1700px;
   margin: 0 auto;
 }
 
 header {
   background-color: white;
-  font-family: 'Caveat', cursive;
 }
 
 header img {
@@ -32,8 +31,7 @@ header img {
 
 .list {
   float: right;
-  font-size: 17px;
-  padding: 60px 50px 0 0;
+  padding: 70px 70px 0 0;
 }
 
 a {
@@ -42,7 +40,7 @@ a {
 
 header a {
   color: #4f0390;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 30px;
 }
 
@@ -96,9 +94,7 @@ p {
 .contact, footer {
   background-color: white;
   color: #4f0390;
-  font-family: 'Caveat', cursive;
-  font-size: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0 40px 0;
   text-align: center;
 }
 

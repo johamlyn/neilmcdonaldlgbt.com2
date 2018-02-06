@@ -14,14 +14,13 @@
 
 body {
   color: #4f0390;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 1700px;
   margin: 0 auto;
 }
 
 header {
   background-color: white;
-  font-family: 'Caveat', cursive;
 }
 
 header img {
@@ -32,8 +31,7 @@ header img {
 
 .list {
   float: right;
-  font-size: 17px;
-  padding: 60px 50px 0 0;
+  padding: 70px 70px 0 0;
 }
 
 a {
@@ -42,7 +40,7 @@ a {
 
 header a {
   color: #4f0390;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 30px;
 }
 
@@ -51,6 +49,7 @@ header a:hover {
 }
 
 main {
+  font-size: 17px;
   text-align: center;
   padding-bottom: 40px;
 }
@@ -73,43 +72,10 @@ main a:hover {
   color: #feba01;
 }
 
-.consultancy {
-  background-color: #feba01;
-  color: #4f0390;
-  font-size: 75px;
-  margin-top: auto;
-  margin-bottom: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 700px;
-  width: 100%;
-}
-
-.consultancy:hover {
-  color: #feba01;
-  background-image: url("../images/neil-21.jpg");
-  background-size: 100%;
-}
-
-.speaking {
-  background-color: #4f0390;
-  color: #feba01;
-}
-
-.speaking:hover {
-  color: #4f0390;
-  background-image: url("../images/neil-26.jpg");
-  background-size: 100%;
-}
-
 .contact, footer {
   background-color: white;
   color: #4f0390;
-  font-family: 'Caveat', cursive;
-  font-size: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0 40px 0;
   text-align: center;
 }
 

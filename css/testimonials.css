@@ -13,15 +13,20 @@
 }
 
 body {
+  background-image: url("../images/logo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: contain;
   color: #4f0390;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   max-width: 1700px;
   margin: 0 auto;
 }
 
 header {
   background-color: white;
-  font-family: 'Caveat', cursive;
+  opacity: 0.8;
 }
 
 header img {
@@ -32,8 +37,7 @@ header img {
 
 .list {
   float: right;
-  font-size: 17px;
-  padding: 60px 50px 0 0;
+  padding: 70px 70px 0 0;
 }
 
 a {
@@ -42,7 +46,7 @@ a {
 
 header a {
   color: #4f0390;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: 30px;
 }
 
@@ -65,7 +69,9 @@ header a:hover {
 
 main {
   background-color: #4f0390;
+  opacity: 0.8;
   color: white;
+  font-size: 17px;
   padding: 50px 0 50px 0;
   text-align: center;
 }
@@ -94,9 +100,7 @@ main p {
 .contact, footer {
   background-color: white;
   color: #4f0390;
-  font-family: 'Caveat', cursive;
-  font-size: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0 40px 0;
   text-align: center;
 }
 
