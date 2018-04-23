@@ -64,12 +64,12 @@ header a:hover {
 
 .container img {
   width: 33.3%;
-  height: 650px;
+  height: 33.3%;
 }
 
 main {
   background-color: #4f0390;
-  opacity: 0.8;
+  opacity: 0.9;
   color: white;
   font-size: 17px;
   padding: 50px 0 50px 0;

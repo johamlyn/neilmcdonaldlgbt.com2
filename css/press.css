@@ -56,10 +56,10 @@ header a:hover {
 
 main {
   background-color: #4f0390;
-  opacity: 0.8;
+  opacity: 0.9;
   color: white;
   font-size: 17px;
-  padding: 50px 0 30px 0;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -84,6 +84,7 @@ main a:hover {
 
 .container {
   display: flex;
+  padding-top: 30px;
 }
 
 .container > div {
@@ -95,6 +96,12 @@ main a:hover {
   color: #4f0390;
   padding: 20px 0 40px 0;
   text-align: center;
+}
+
+article {
+  margin-right: 150px;
+  margin-left: 150px;
+  padding-bottom: 15px;
 }
 
 p {
