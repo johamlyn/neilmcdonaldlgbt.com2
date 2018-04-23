@@ -45,7 +45,8 @@ a {
 }
 
 header a {
-  color: #4f0390;
+  /* color: #4f0390; */
+  color: pink;
   font-size: 15px;
   padding-left: 30px;
 }
