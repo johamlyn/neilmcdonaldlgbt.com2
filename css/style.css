@@ -24,7 +24,7 @@ header {
 }
 
 header img {
- margin: 20px 0 20px 50px;
+ margin: 20px 0 40px 50px;
  width: 10%;
  height: 10%;
 }
@@ -39,11 +39,9 @@ a {
 }
 
 header a {
-  /* color: #4f0390; */
-  color: pink;
+  color: #4f0390;
   /* font-size: 20px; */
   padding-right: 15px;
-  margin-bottom: 40px;
 }
 
 header a:hover {
