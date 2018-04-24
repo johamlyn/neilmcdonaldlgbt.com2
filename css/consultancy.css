@@ -35,7 +35,9 @@ a {
 }
 
 header a {
-  color: #4f0390;
+  /* color: #4f0390; */
+  color: blue;
+  font-size: 15px;
   padding-right: 15px;
 }
 
