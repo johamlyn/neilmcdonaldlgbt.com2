@@ -19,19 +19,15 @@ body {
   margin: 0 auto;
 }
 
-header {
-  background-color: white;
-}
-
 header img {
- margin: 20px 0 20px 50px;
+ margin: 20px 0 40px 50px;
  width: 10%;
  height: 10%;
 }
 
 .list {
   float: right;
-  padding: 70px 70px 0 0;
+  padding: 70px 50px 0 0;
 }
 
 a {
@@ -40,8 +36,7 @@ a {
 
 header a {
   color: #4f0390;
-  font-size: 20px;
-  padding-left: 30px;
+  padding-right: 15px;
 }
 
 header a:hover {
@@ -81,7 +76,7 @@ main a:hover {
 .action, .contact, footer {
   background-color: white;
   color: #4f0390;
-  padding: 20px 0 40px 0;
+  padding: 20px 50px 40px 50px;
   text-align: center;
 }
 
