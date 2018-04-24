@@ -40,9 +40,9 @@ a {
 
 header a {
   /* color: #4f0390; */
-  color: pink;
-  /* font-size: 20px; */
-  padding-left: 30px;
+  color: blue;
+  font-size: 15px; 
+  padding-left: 15px;
 }
 
 header a:hover {
