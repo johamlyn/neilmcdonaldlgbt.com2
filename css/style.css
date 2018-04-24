@@ -39,9 +39,11 @@ a {
 }
 
 header a {
-  color: #4f0390;
-  font-size: 100%;
-  padding: 0 15px 20px 0;
+  /* color: #4f0390; */
+  color: pink;
+  /* font-size: 20px; */
+  padding-right: 15px;
+  margin-bottom: 40px;
 }
 
 header a:hover {
