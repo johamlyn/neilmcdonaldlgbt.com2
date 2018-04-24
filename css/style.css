@@ -31,7 +31,7 @@ header img {
 
 .list {
   float: right;
-  padding: 70px 70px 0 0;
+  padding: 70px 50px 0 0;
 }
 
 a {
@@ -39,10 +39,9 @@ a {
 }
 
 header a {
-  /* color: #4f0390; */
-  color: blue;
-  font-size: 15px; 
-  padding-left: 15px;
+  color: #4f0390;
+  font-size: 100%;
+  padding: 0 15px 20px 0;
 }
 
 header a:hover {
