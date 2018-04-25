@@ -64,13 +64,15 @@ main {
 
 h1 {
   font-size: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   text-align: center;
+}
+article {
+  padding-bottom: 60px;
 }
 
 main p {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 
 main a {
@@ -79,6 +81,10 @@ main a {
 
 main a:hover {
   color: white;
+}
+
+.video {
+  padding-bottom: 60px;
 }
 
 .container {
